@@ -92,6 +92,39 @@ pip install pandas
 
 ---
 
+## 🔧 Usando no Google Colab (Importante)
+
+Se você estiver executando o projeto no Google Colab, será necessário ajustar os caminhos dos arquivos.
+
+### ✔️ 1. Fazer upload do arquivo CSV
+
+```
+from google.colab import files
+uploaded = files.upload()
+```
+
+Depois do upload:
+
+```
+df = pd.read_csv("students_raw.csv")
+```
+
+### ✔️ 2. Baixar arquivos gerados
+
+```
+df.to_csv("students_processed.csv", index=False)
+from google.colab import files
+files.download("students_processed.csv")
+```
+
+### ✔️ 3. Organização opcional com diretórios
+
+```
+import os
+os.makedirs("data", exist_ok=True)
+os.makedirs("output", exist_ok=True)
+```
+
 ## 🤝 Contribuições
 
 Sugestões e melhorias são sempre bem-vindas!
