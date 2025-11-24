@@ -1,5 +1,20 @@
 # 📊 ETL - Students Performance
 
+<p align="left">
+ <img src="https://img.shields.io/badge/Python-3.10-blue" />
+ <img src="https://img.shields.io/badge/Pandas-Data%20Processing-green" />
+ <img src="https://img.shields.io/badge/SQLite-Database-orange" />
+ <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
+</p>
+
+---
+
+## 🔄 Fluxo ETL
+
+<p align="center">
+  <img src="A_digital_flowchart_illustrates_an_ETL_(Extract,_T.png" width="700">
+</p>
+
 Este projeto implementa um pipeline completo de **ETL (Extract, Transform, Load)** para análise de desempenho de alunos. Ele faz extração de dados brutos a partir de um arquivo CSV, aplica transformações inteligentes (incluindo normalização, cálculo de média final, classificação e insights automatizados) e salva os resultados em múltiplos formatos.
 
 ---
@@ -134,3 +149,5 @@ Sugestões e melhorias são sempre bem-vindas!
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
+
+---
